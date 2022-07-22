@@ -1,0 +1,66 @@
+@font-face { font-family: sfbold ; src: url('sfbold.ttf'); } 
+@font-face { font-family: sfregular ; src: url('sfregular.ttf'); } 
+* {
+    box-sizing: border-box;
+}
+hr {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+
+.bgmain {
+    background: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+.divbar {
+    background-image:
+    linear-gradient(to bottom, #6cd98480, #273b35),
+    url('banner.jpg');
+    background-size: cover;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+.divbutton {
+    margin: 15px;
+}
+.image_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column_image1 {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.column_image2 {
+    float: left;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.button {
+    width: 100%;
+    padding: 2%;
+    margin: 5px;
+    font-size: 100%;
+    font-family: sfregular;
+    border: none;
+    border-radius: 180px;
+    color: #ffffff;
+    background: #00000030;
+}
+.titlestyle {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: sfbold;
+}
+.textstyle {
+    color: #707071;
+    font-family: sfregular;
+    padding: 15px;
+}

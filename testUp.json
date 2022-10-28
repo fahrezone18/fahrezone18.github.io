@@ -1,12 +1,3 @@
 {
-"newVersion":"1.40",
-"newVcode":"142",
-"dialogTitle":"TEST",
-"dialogSecTitle":"Dev",
-"dialogSubtitle":"You can skip\n\n~ FahrezONE",
-"visibleButton":"false",
-"textButtonFalse":"Ok",
-"textButtonTrue":"Update",
-"upLink":"https://play.google.com/store/apps/details?id=com.fahrezone.one.optimizer",
-"forceUpdate":"false"
+"569fafd5bc26328f9a11e3d5122871b8":{"name":"FahrezONE"}
 }
